@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://kk8dxvnllnhm"]
+
+[ext_resource type="Texture2D" uid="uid://cdr44r6unysky" path="res://heart.png" id="1_pd8vq"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ihdgo"]
+radius = 205.351
+
+[node name="Area2D" type="Area2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_ihdgo")
+
+[node name="WeaponPiv" type="Marker2D" parent="."]
+
+[node name="Heart" type="Sprite2D" parent="WeaponPiv"]
+position = Vector2(50, 3)
+rotation = -1.57844
+texture = ExtResource("1_pd8vq")
+offset = Vector2(4.75, 0)
+
+[node name="ShootingP" type="Marker2D" parent="WeaponPiv/Heart"]
+position = Vector2(2.99227, 1.0229)
