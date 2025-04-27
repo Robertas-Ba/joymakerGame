@@ -15,7 +15,11 @@ offset_bottom = 650.0
 color = Color(0.278431, 0.498039, 0.156863, 1)
 
 [node name="Tree2" type="Sprite2D" parent="."]
-position = Vector2(65, 219)
+position = Vector2(662, 309)
+texture = ExtResource("2_iw27f")
+
+[node name="Tree9" type="Sprite2D" parent="."]
+position = Vector2(110, 230)
 texture = ExtResource("2_iw27f")
 
 [node name="Tree3" type="Sprite2D" parent="."]
@@ -38,12 +42,20 @@ texture = ExtResource("3_71pa8")
 position = Vector2(1016, 448)
 texture = ExtResource("4_05x41")
 
+[node name="TreeD3" type="Sprite2D" parent="."]
+position = Vector2(858, 121)
+texture = ExtResource("4_05x41")
+
+[node name="TreeD4" type="Sprite2D" parent="."]
+position = Vector2(190, 79)
+texture = ExtResource("4_05x41")
+
 [node name="Tree4" type="Sprite2D" parent="."]
 position = Vector2(155, 526)
 texture = ExtResource("5_gqbix")
 
 [node name="Tree7" type="Sprite2D" parent="."]
-position = Vector2(621, 59)
+position = Vector2(621, 70)
 texture = ExtResource("5_gqbix")
 
 [node name="Tree8" type="Sprite2D" parent="."]
@@ -54,4 +66,4 @@ texture = ExtResource("5_gqbix")
 position = Vector2(985, 177)
 
 [node name="Player" parent="." instance=ExtResource("6_iw27f")]
-position = Vector2(748, 352)
+position = Vector2(579, 350)
