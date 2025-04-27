@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://c1mljmufmc2uu"]
+
+[ext_resource type="Texture2D" uid="uid://bxt5wf3r04c6f" path="res://0% mob.png" id="1_qtixh"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_qtixh"]
+radius = 17.0
+
+[node name="Bad" type="CharacterBody2D"]
+
+[node name="0_Mob" type="Sprite2D" parent="."]
+texture = ExtResource("1_qtixh")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 1)
+shape = SubResource("CircleShape2D_qtixh")
