@@ -7,6 +7,7 @@ radius = 17.0
 
 [node name="Bad" type="CharacterBody2D"]
 collision_layer = 2
+collision_mask = 3
 
 [node name="0_Mob" type="Sprite2D" parent="."]
 texture = ExtResource("1_qtixh")
