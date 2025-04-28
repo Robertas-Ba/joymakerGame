@@ -1,11 +1,15 @@
-[gd_scene load_steps=3 format=3 uid="uid://kk8dxvnllnhm"]
+[gd_scene load_steps=4 format=3 uid="uid://kk8dxvnllnhm"]
 
+[ext_resource type="Script" uid="uid://d33qkbar07ott" path="res://pewpew.gd" id="1_ihdgo"]
 [ext_resource type="Texture2D" uid="uid://cdr44r6unysky" path="res://heart.png" id="1_pd8vq"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ihdgo"]
 radius = 205.351
 
 [node name="Area2D" type="Area2D"]
+collision_layer = 0
+collision_mask = 2
+script = ExtResource("1_ihdgo")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_ihdgo")
