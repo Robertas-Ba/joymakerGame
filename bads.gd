@@ -1,14 +1,9 @@
 extends CharacterBody2D
 
 var health = 3
-var skins = [
-	preload("res://0% mob.png"),
-	preload("res://50% mob.png"),
-	preload("res://100% mob.png")
-]
+var normal_skin = preload("res://0% mob.png")
+var damaged_skin = preload("res://50% mob.png")
 
-
-	
 @onready var player = get_node("res://joy.tscn")
 
 #func _physics_process(delta):
