@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://c1mljmufmc2uu"]
+[gd_scene load_steps=4 format=3 uid="uid://c1mljmufmc2uu"]
 
 [ext_resource type="Texture2D" uid="uid://bxt5wf3r04c6f" path="res://0% mob.png" id="1_qtixh"]
+[ext_resource type="Script" uid="uid://ngv7ccwsbkq5" path="res://bads.gd" id="1_t3ptl"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_qtixh"]
 radius = 17.0
@@ -8,6 +9,7 @@ radius = 17.0
 [node name="Bad" type="CharacterBody2D"]
 collision_layer = 2
 collision_mask = 3
+script = ExtResource("1_t3ptl")
 
 [node name="0_Mob" type="Sprite2D" parent="."]
 texture = ExtResource("1_qtixh")
