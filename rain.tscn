@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://yhnok8taumwn"]
+
+[sub_resource type="GDScript" id="GDScript_43xbk"]
+script/source = "extends Node2D
+
+func _ready():
+	pass
+
+func _process(delta):
+	if Input.is_action_just_pressed(\"ui_accept\"):
+		$CPUParticles2D.emitting = $CPUParticles2D.emitting
+"
+
+[node name="Rain" type="Node2D"]
+script = SubResource("GDScript_43xbk")
+
+[node name="CPUParticles2D" type="CPUParticles2D" parent="."]
+position = Vector2(626, -24)
+amount = 150
+lifetime = 1.2
+emission_shape = 3
+emission_rect_extents = Vector2(550, 1)
+gravity = Vector2(-200, 980)
+scale_amount_min = 1.2
+scale_amount_max = 1.2
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(576, 323)
