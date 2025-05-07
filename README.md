@@ -38,6 +38,9 @@ Move near bad to shoot aim auto locks on
 Shoot bads 3 times to progress the game
 </pre>
 
+# Proud of
+The assets i made
+
 # Documentation
 In the commits
 
