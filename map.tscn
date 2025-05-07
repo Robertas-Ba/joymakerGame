@@ -92,3 +92,12 @@ script = ExtResource("7_gqbix")
 
 [node name="Rain" parent="." instance=ExtResource("8_05x41")]
 position = Vector2(-3, 3)
+
+[node name="TextEdit" type="TextEdit" parent="."]
+layout_mode = 0
+offset_left = 3.0
+offset_top = 587.0
+offset_right = 153.0
+offset_bottom = 652.0
+text = "WASD to move
+Get near to shoot"
