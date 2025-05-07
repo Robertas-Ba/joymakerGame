@@ -1,4 +1,9 @@
-# joymaker
+# Joymaker
+
+Robertas Baranauskas
+C24736925 
+Tu984
+
 # Assets Used
 ![heart](https://github.com/user-attachments/assets/8201599a-d629-4142-809e-4571cb5bedd0)
 ![tree5](https://github.com/user-attachments/assets/49861dc5-b87b-465b-8e9e-57e6fbae638d)
