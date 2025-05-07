@@ -39,5 +39,6 @@ In the commits
 fix bads ai
 fix shooting from top left corner
 fix progression bar
+add fx and animations
 </pre>
 
