@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://dnoqxwxqbuqsg"]
+[gd_scene load_steps=9 format=3 uid="uid://dnoqxwxqbuqsg"]
 
 [ext_resource type="PackedScene" uid="uid://c1mljmufmc2uu" path="res://Bads.tscn" id="1_iw27f"]
 [ext_resource type="Texture2D" uid="uid://b6naxm17nc5pd" path="res://tree2.jpg" id="2_iw27f"]
@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://bnrw3ocwrg2tu" path="res://treeD.jpg" id="4_05x41"]
 [ext_resource type="Texture2D" uid="uid://dgc2pexh4fvy4" path="res://tree3.jpg" id="5_gqbix"]
 [ext_resource type="PackedScene" uid="uid://bwldgxe7nvc6l" path="res://joy.tscn" id="6_iw27f"]
+[ext_resource type="PackedScene" uid="uid://0exsssxg1gbv" path="res://Music.tscn" id="7_71pa8"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_iw27f"]
 
@@ -83,3 +84,5 @@ offset_top = 1.0
 offset_right = 664.0
 offset_bottom = 28.0
 theme_override_styles/fill = SubResource("StyleBoxFlat_iw27f")
+
+[node name="AudioStreamPlayer2D" parent="." instance=ExtResource("7_71pa8")]

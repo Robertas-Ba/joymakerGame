@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://0exsssxg1gbv"]
+
+[ext_resource type="AudioStream" uid="uid://cmocr8vxcjskl" path="res://background-music-calm-soft-334182.mp3" id="1_fw6bl"]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_fw6bl")
+autoplay = true
