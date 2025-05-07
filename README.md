@@ -14,6 +14,9 @@ Tu984
 ![treeD](https://github.com/user-attachments/assets/9eb6d865-12bd-440c-a6e0-e064b9bfa871)
 ![ButterFly](https://github.com/user-attachments/assets/587e6157-44a7-4673-8c8b-e0bc37e7dca9)
 
+trees where gotten from:
+https://www.reddit.com/r/gameassets/comments/n6q4nn/if_you_are_looking_for_some_trees_check_these/?rdt=34969
+
 # Gameplay Video
 
 # Game Idea
