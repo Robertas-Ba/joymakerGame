@@ -37,7 +37,7 @@ In the commits
 # To Do
 <pre>
 fix bads ai
-fix shooting from top left corner
+fix not shooting from heart
 fix progression bar
 add fx and animations
 </pre>
