@@ -15,3 +15,8 @@ Tu984
 ![ButterFly](https://github.com/user-attachments/assets/587e6157-44a7-4673-8c8b-e0bc37e7dca9)
 
 # Gameplay Video
+
+# Game Idea
+when the "bads" spawn the will be red or sad and when the player shoots hearts at them the become yellow neutral and if they get hit again after that the bad turns green happy.
+
+
