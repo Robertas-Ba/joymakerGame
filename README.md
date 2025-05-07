@@ -31,6 +31,13 @@ The rest i made
 # Game Idea
 when the "bads" spawn the will be red or sad and when the player shoots hearts at them the become yellow neutral and if they get hit again after that the bad turns green happy. the goal is to make all the bads happy each time you make them happy you progress while aslo changing the weather from rainy to sunny
 
+# Instructions
+<pre>
+WASD to move
+Move near bad to shoot aim auto locks on
+Shoot bads 3 times to progress the game
+</pre>
+
 # Documentation
 In the commits
 
