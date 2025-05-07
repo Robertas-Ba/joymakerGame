@@ -65,5 +65,18 @@ texture = ExtResource("5_gqbix")
 [node name="Bad" parent="." instance=ExtResource("1_iw27f")]
 position = Vector2(985, 177)
 
+[node name="Bad2" parent="." instance=ExtResource("1_iw27f")]
+position = Vector2(340, 93)
+
+[node name="Bad3" parent="." instance=ExtResource("1_iw27f")]
+position = Vector2(221, 322)
+
 [node name="Player" parent="." instance=ExtResource("6_iw27f")]
 position = Vector2(579, 350)
+
+[node name="ProgressBar" type="ProgressBar" parent="."]
+layout_mode = 0
+offset_left = 519.0
+offset_top = 1.0
+offset_right = 664.0
+offset_bottom = 28.0
