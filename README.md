@@ -19,6 +19,7 @@ https://www.reddit.com/r/gameassets/comments/n6q4nn/if_you_are_looking_for_some_
 
 # Gameplay Video
 
+
 # Game Idea
 when the "bads" spawn the will be red or sad and when the player shoots hearts at them the become yellow neutral and if they get hit again after that the bad turns green happy. the goal is to make all the bads happy each time you make them happy you progress
 
