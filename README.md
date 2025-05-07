@@ -14,7 +14,11 @@ Tu984
 ![treeD](https://github.com/user-attachments/assets/9eb6d865-12bd-440c-a6e0-e064b9bfa871)
 ![ButterFly](https://github.com/user-attachments/assets/587e6157-44a7-4673-8c8b-e0bc37e7dca9)
 
+Trees where gotten from:
+https://www.reddit.com/r/gameassets/comments/n6q4nn/if_you_are_looking_for_some_trees_check_these/?rdt=34969
+
 # Gameplay Video
+
 
 # Game Idea
 when the "bads" spawn the will be red or sad and when the player shoots hearts at them the become yellow neutral and if they get hit again after that the bad turns green happy. the goal is to make all the bads happy each time you make them happy you progress
