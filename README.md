@@ -16,6 +16,8 @@ Tu984
 
 Trees where gotten from:
 https://www.reddit.com/r/gameassets/comments/n6q4nn/if_you_are_looking_for_some_trees_check_these/?rdt=34969
+Music:
+https://pixabay.com/music/upbeat-background-music-soft-calm-333111/
 
 # Gameplay Video
 
