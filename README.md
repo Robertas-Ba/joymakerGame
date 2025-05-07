@@ -35,7 +35,9 @@ when the "bads" spawn the will be red or sad and when the player shoots hearts a
 In the commits
 
 # To Do
+<pre>
 fix bads ai
 fix shooting from top left corner
 fix progression bar
+</pre>
 
