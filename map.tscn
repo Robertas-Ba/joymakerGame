@@ -109,5 +109,5 @@ position = Vector2(1095, 604)
 texture = ExtResource("10_sb2pt")
 
 [node name="50_Mob" type="Sprite2D" parent="."]
-position = Vector2(742, 583)
+position = Vector2(1031, 605)
 texture = ExtResource("11_0t07s")
