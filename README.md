@@ -26,7 +26,7 @@ https://pixabay.com/music/upbeat-background-music-soft-calm-333111/
 The rest i made
 
 # Gameplay Video
-https://www.youtube.com/watch?v=zn47DIGiJ3A
+[https://www.youtube.com/watch?v=zn47DIGiJ3A](https://youtu.be/s0MrB0t7Dt4)
 
 # Game Idea
 when the "bads" spawn the will be red or sad and when the player shoots hearts at them the become yellow neutral and if they get hit again after that the bad turns green happy. the goal is to make all the bads happy each time you make them happy you progress while aslo changing the weather from rainy to sunny and grow flowers
