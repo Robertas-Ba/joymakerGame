@@ -12,8 +12,8 @@ func shoot():
 	const  bullet = preload("res://bullet.tscn")
 	var new_bullet = bullet.instantiate()
 	new_bullet.global_position = $WeaponPiv/Heart/ShootingP.global_position	
-	new_bullet.global_rotation = $WeaponPiv/Heart/ShootingP.global_rotation
-	$WeaponPiv/Heart/ShootingP.add_child(new_bullet)
+	new_bullet.global_rotation = $WeaponPiv/Heart/ShootingP.global_rotation + (PI *.5)
+	$"../../".add_child(new_bullet)
 
 
 func _on_timer_timeout():
