@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://dnoqxwxqbuqsg"]
+[gd_scene load_steps=13 format=3 uid="uid://dnoqxwxqbuqsg"]
 
 [ext_resource type="PackedScene" uid="uid://c1mljmufmc2uu" path="res://Bads.tscn" id="1_iw27f"]
 [ext_resource type="Texture2D" uid="uid://b6naxm17nc5pd" path="res://tree2.jpg" id="2_iw27f"]
@@ -9,6 +9,8 @@
 [ext_resource type="PackedScene" uid="uid://0exsssxg1gbv" path="res://Music.tscn" id="7_71pa8"]
 [ext_resource type="Script" uid="uid://cec31xqr2j6i3" path="res://progress_bar.gd" id="7_gqbix"]
 [ext_resource type="PackedScene" uid="uid://yhnok8taumwn" path="res://rain.tscn" id="8_05x41"]
+[ext_resource type="Texture2D" uid="uid://ccu1kajy1bi17" path="res://100% mob.png" id="10_sb2pt"]
+[ext_resource type="Texture2D" uid="uid://ihslh0e1cx2x" path="res://50% mob.png" id="11_0t07s"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_iw27f"]
 
@@ -101,3 +103,11 @@ offset_right = 153.0
 offset_bottom = 652.0
 text = "WASD to move
 Get near to shoot"
+
+[node name="100_Mob" type="Sprite2D" parent="."]
+position = Vector2(1095, 604)
+texture = ExtResource("10_sb2pt")
+
+[node name="50_Mob" type="Sprite2D" parent="."]
+position = Vector2(742, 583)
+texture = ExtResource("11_0t07s")
