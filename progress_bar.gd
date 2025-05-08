@@ -1,5 +1,5 @@
 extends ProgressBar
 
 
-func _on_enemy_enemy_killed():
+func take_damage():
 	$"../ProgressBar".value += 10
