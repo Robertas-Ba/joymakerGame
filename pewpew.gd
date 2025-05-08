@@ -9,8 +9,8 @@ func _physics_process(delta):
 
 
 func shoot():
-	const  BULLET = preload("res://bullet.tscn")
-	var new_bullet = BULLET.instantiate()
+	const  bullet = preload("res://bullet.tscn")
+	var new_bullet = bullet.instantiate()
 	new_bullet.global_position = $WeaponPiv/Heart/ShootingP.global_position	
 	new_bullet.global_rotation = $WeaponPiv/Heart/ShootingP.global_rotation
 	$WeaponPiv/Heart/ShootingP.add_child(new_bullet)
